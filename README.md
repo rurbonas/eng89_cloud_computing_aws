@@ -10,7 +10,7 @@ db
 ### App VM
 - Secure copy of app folder from local machine to EC2 (virtual) server
 `scp -i [.pem file path] -r [app folder on localhost] [ec2 instance name]:[desired dir]`
-for exaple:
+- for exaple:
 `scp -i "eng89_devops.pem" -r "C:\Users\Projects\eng89\app" ubuntu@ec2-1.1.1.1.eu-west-1.compute.amazonaws.com:app/`
 
 - ssh to app
